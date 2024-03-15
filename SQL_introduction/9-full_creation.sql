@@ -22,6 +22,6 @@ SET
 INSERT INTO
 	second_table
 SET
-	id = 3,
+	id = 4,
 	name = 'George',
 	score = 8
