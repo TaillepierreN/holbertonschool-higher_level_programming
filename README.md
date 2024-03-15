@@ -41,3 +41,6 @@ Welcome to our Python Programming projects! These projects are designed to intro
 - Basic familiarity with programming concepts
 
 
+# SQL Basics series
+
+Welcome to our SQL projects! These projects are designed to introduce and deepen understanding of SQL statements and queries through a variety of projects, each focusing on different core concepts. 
