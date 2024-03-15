@@ -24,4 +24,4 @@ INSERT INTO
 SET
 	id = 3,
 	name = 'George',
-	score = 8;
+	score = 8
