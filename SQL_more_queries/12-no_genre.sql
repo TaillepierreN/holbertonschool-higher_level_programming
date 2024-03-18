@@ -1,7 +1,5 @@
 -- List all shows in hbtn_0d_tvshows without a genre
 -- display: tw_shows.title - tv_show_genres.genre_id
-use hbtn_0d_tvshows;
-
 SELECT
 	tv_shows.title,
 	tv_show_genres.genre_id

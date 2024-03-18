@@ -1,6 +1,5 @@
 -- list all shows in tvshows
 -- display: tv_shows.title - tv_show_genres.genre_id/NULL
-use hbtn_0d_tvshows;
 SELECT
 	tv_shows.title,
 	tv_show_genres.genre_id
