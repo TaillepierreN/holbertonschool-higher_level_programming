@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Script that list all states from database hbtn_0e_0_usa starting with N
+Script that list all cities from database hbtn_0e_4_usa
 """
 
 import MySQLdb
@@ -9,7 +9,7 @@ from sys import argv
 if __name__ == "__main__":
     """
     Main execution block
-    connect to mysql database and list states starting with N by ID ascending.
+    connect to mysql database and list cities.
     """
     db = MySQLdb.connect(host='localhost',
                          port=3306,
