@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
 """
 Script that list all states from database hbtn_0e_0_usa
 where name matches the argument safely
@@ -13,7 +12,7 @@ if __name__ == "__main__":
     Main execution block
     connect to mysql database and list states by ID ascending.
     use a placeholded for the user input, and input value
-    is passed as an argument to execute in a tuple to make 
+    is passed as an argument to execute in a tuple to make
     sure it is handled as a value,not part of the sql command
     """
     db = MySQLdb.connect(host='localhost',
