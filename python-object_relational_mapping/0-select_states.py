@@ -8,10 +8,8 @@ import sys
 
 if __name__ == "__main__":
     """
+    Main execution block
     connect to mysql database and list states by ID ascending
-    username: user name for the db
-    password: password for the db
-    dbname database name to connect to
     """
     db = MySQLdb.connect(host='localhost',
                          port=3306,
