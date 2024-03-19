@@ -25,6 +25,7 @@ def select_states(username, password, dbname):
 
 
 if __name__ == "__main__":
+    """Main execution block"""
     if len(sys.argv) == 4:
         username = sys.argv[1]
         password = sys.argv[2]
