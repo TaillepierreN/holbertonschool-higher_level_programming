@@ -9,7 +9,7 @@ from sys import argv
 if __name__ == "__main__":
     """
     Main execution block
-    connect to mysql database and list states by ID ascending
+    connect to mysql database and list states by ID ascending.
     """
     db = MySQLdb.connect(host='localhost',
                          port=3306,
