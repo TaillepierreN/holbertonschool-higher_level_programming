@@ -28,7 +28,9 @@ if __name__ == "__main__":
         session = DBsession()
 
         state = session.query(State).order_by(State.id).first()
-        print("{}: {}".format(state.id, state.name))
+
+        print("{}: {}".format(state.id, state.name)
+              if state else "Nothing")
 
     else:
         print("Usage: {} <username> <password> <db_name>".format(argv[0]))
