@@ -15,7 +15,7 @@ if __name__ == "__main__":
     Create with Factory function sessionmaker a work area
     with engine binded foR execution of SQL statements
     Add the new objEct 'Louisiana' into the session
-    Commit the session to the Database 
+    Commit the session to the Database
 
     """
     if len(argv) == 4:
@@ -26,8 +26,11 @@ if __name__ == "__main__":
         DBsession = sessionmaker(bind=engine)
         session = DBsession()
 
-        session.add(State(name='Louisiana'))
+        new_state = State(name='Louisiana')
+        session.add(new_state)
         session.commit()
+        print("{}".format(new_state.id))
+
     else:
         print("Usage: {} <username> <password>  \
               <db_name>".format(argv[0]))
