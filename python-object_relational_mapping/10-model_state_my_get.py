@@ -29,7 +29,7 @@ if __name__ == "__main__":
         state = session.query(State).filter(State.name == argv[4]).order_by(
             State.id).first()
 
-        print("{}".format(state.id))
+        print("{}".format(state.id) if state else "Not found")
 
     else:
         print("Usage: {} <username> <password>  \
