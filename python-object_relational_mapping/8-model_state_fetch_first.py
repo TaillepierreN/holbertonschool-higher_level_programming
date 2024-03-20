@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Script to list all states in hbtn_0e_6_usa
+Script to list the first states in hbtn_0e_6_usa
 """
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
