@@ -1,5 +1,6 @@
 # Python Programming Series
-
+![Holberton](./holbie.jpg)
+Hello I'm [Nicolas](https://www.linkedin.com/in/taillepierrenicolas/) a learning developer<br>
 Welcome to our Python Programming projects! These projects are designed to introduce and deepen understanding of Python programming through a variety of projects, each focusing on different core concepts. From the basics of "Hello World" to more advanced topics like Test-Driven Development, these projects offers a comprehensive journey through Python.
 
 ## Projects Overview
